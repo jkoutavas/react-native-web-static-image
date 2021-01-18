@@ -6,3 +6,5 @@ The app was created by following the steps at [this article](https://medium.com/
 It's at [this line of code](https://github.com/jkoutavas/react-native-web-static-image/blob/7744f7687704f552a7f1906758dc8612e4410d67/app/src/App.js#L54) where I do the image display.
 
 It's [here](https://github.com/jkoutavas/react-native-web-static-image/blob/570880720deed489bb4cb49b115f2c4e20dc9364/app/config-overrides.js#L5) where I'm adding a url-loader webpack rule, as referred to at [react-native-web issue #1497](https://github.com/necolas/react-native-web/issues/1497) and similar solutions I've seen online.
+
+Everything builds fine for web (`yarn run web`), but the image does not appear. The image appears fine on iOS and Android, as you would expect.
