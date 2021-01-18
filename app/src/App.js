@@ -51,7 +51,10 @@ const App: () => React$Node = () => {
               </Text>
             </View>
           </View>
-          <Image source={require('./assets/images/AppLogoIcon.png')} />
+          <Image
+            style={styles.image}
+            source={require('./assets/images/AppLogoIcon.png')}
+          />
         </ScrollView>
       </SafeAreaView>
     </>
@@ -59,6 +62,10 @@ const App: () => React$Node = () => {
 };
 
 const styles = StyleSheet.create({
+  image: {
+    width: 56,
+    height: 56,
+  },
   engine: {
     position: 'absolute',
     right: 0,
