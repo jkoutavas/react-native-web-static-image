@@ -1,2 +1,2 @@
 # react-native-web-static-image
-An attempt to display a static image from react-native-web
+An attempt to display a static image from react-native-web. The app was created by following the steps at [this article](https://medium.com/@aureliomerenda/create-a-native-web-app-with-react-native-web-419acac86b82), then I `yarn add customize-cra react-app-rewired` using info from [this article](https://mmazzarolo.com/blog/2020-10-24-adding-react-native-web/) so that I might apply what is discussed here in [this issue](https://github.com/necolas/react-native-web/issues/1497) over on the react-native-web github site to try to get a static image to load using `<image source={require(...)}>`
